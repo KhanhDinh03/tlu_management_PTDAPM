@@ -29,6 +29,7 @@ class DatabaseSeeder extends Seeder
         User::factory()->create([
             'name'  => 'admin',
             'email' => 'admin@tlu.edu.vn',
+            'password' => 'admin',
             'role'  => 'quantri',
         ]);
 
